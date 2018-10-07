@@ -25,4 +25,4 @@ class Ui_Form(object):
         _translate = QtCore.QCoreApplication.translate
         Form.setWindowTitle(_translate("Form", "Form"))
 
-import apprcc_rc
+from Chapter03 import apprcc_rc

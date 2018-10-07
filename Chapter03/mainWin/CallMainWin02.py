@@ -2,8 +2,8 @@
 
 import sys
 from PyQt5.QtWidgets import QApplication, QMainWindow, QWidget, QFileDialog
-from MainForm2 import Ui_MainWindow
-from ChildrenForm2 import Ui_ChildrenForm
+from Chapter03.mainWin.MainForm2 import Ui_MainWindow
+from Chapter03.mainWin.ChildrenForm2 import Ui_ChildrenForm
 
 
 class MainForm(QMainWindow, Ui_MainWindow):

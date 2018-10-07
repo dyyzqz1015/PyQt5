@@ -2,7 +2,7 @@
 
 import sys 	
 from PyQt5.QtWidgets import QApplication , QMainWindow
-from MainWinSignalSlog02 import Ui_Form
+from Chapter03.MainWinSignalSlog02 import Ui_Form
 from PyQt5.QtCore import pyqtSignal , Qt 
 
 class MyMainWindow(QMainWindow, Ui_Form):

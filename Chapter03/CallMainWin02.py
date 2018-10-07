@@ -2,7 +2,7 @@
 
 import sys 	
 from PyQt5.QtWidgets import QApplication , QMainWindow
-from MainWin02 import Ui_Form
+from Chapter03.MainWin02 import Ui_Form
 
 class MyMainWindow(QMainWindow, Ui_Form):
     def __init__(self, parent=None):    
