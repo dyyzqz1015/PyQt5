@@ -2,7 +2,7 @@
 
 import sys 	
 from PyQt5.QtWidgets import QApplication , QMainWindow, QWidget , QFileDialog 
-from MainForm import Ui_MainWindow  
+from MainForm import Ui_MainWindow
 
 class MainForm( QMainWindow , Ui_MainWindow):  
 	def __init__(self):  
